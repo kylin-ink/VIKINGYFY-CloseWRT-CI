@@ -57,7 +57,7 @@ UPDATE_PACKAGE "argon" "sbwml/luci-theme-argon" "openwrt-24.10"
 UPDATE_PACKAGE "homeproxy" "VIKINGYFY/homeproxy" "main"
 UPDATE_PACKAGE "nikki" "nikkinikki-org/OpenWrt-nikki" "main"
 UPDATE_PACKAGE "openclash" "vernesong/OpenClash" "dev" "pkg"
-UPDATE_PACKAGE "passwall" "xiaorouji/openwrt-passwall" "main" "pkg"
+UPDATE_PACKAGE "passwall2" "xiaorouji/openwrt-passwall" "main" "pkg"
 UPDATE_PACKAGE "ssr-plus" "fw876/helloworld" "master"
 
 UPDATE_PACKAGE "alist" "sbwml/luci-app-alist" "main"
@@ -68,6 +68,11 @@ UPDATE_PACKAGE "luci-app-gecoosac" "lwb1978/openwrt-gecoosac" "main"
 UPDATE_PACKAGE "luci-app-tailscale" "asvow/luci-app-tailscale" "main"
 
 UPDATE_PACKAGE "lazyoop" "lazyoop/networking-artifact" "main"
+
+UPDATE_PACKAGE "luci-app-lucky" "gdy666/luci-app-lucky" "main"
+UPDATE_PACKAGE "luci-app-daed" "QiuSimons/luci-app-daed" "main"
+
+
 
 #更新软件包版本
 UPDATE_VERSION() {
