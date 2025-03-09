@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#kenzok8 包补充仓
+sed -i '$a src-git smpackage https://github.com/kenzok8/small-package' feeds.conf.default
 #修改默认主题
 sed -i "s/luci-theme-bootstrap/luci-theme-$WRT_THEME/g" $(find ./feeds/luci/collections/ -type f -name "Makefile")
 #修改immortalwrt.lan关联IP
