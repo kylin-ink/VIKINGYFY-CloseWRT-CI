@@ -52,12 +52,15 @@ UPDATE_PACKAGE() {
 # UPDATE_PACKAGE "open-app-filter" "destan19/OpenAppFilter" "master" "" "luci-app-appfilter oaf" 这样会把原有的open-app-filter，luci-app-appfilter，oaf相关组件删除，不会出现coremark错误。
 
 # UPDATE_PACKAGE "包名" "项目地址" "项目分支" "pkg/name，可选，pkg为从大杂烩中单独提取包名插件；name为重命名为包名"
-UPDATE_PACKAGE "argon" "sbwml/luci-theme-argon" "openwrt-24.10"
+UPDATE_PACKAGE "kucat" "sirpdboy/luci-theme-kucat" "js"
 
-UPDATE_PACKAGE "homeproxy" "VIKINGYFY/homeproxy" "main"
+
+#homeproxy不良0的有clash api
+UPDATE_PACKAGE "homeproxy""bulianglin/homeproxy""master"
+#UPDATE_PACKAGE "homeproxy" "VIKINGYFY/homeproxy" "main"
 UPDATE_PACKAGE "nikki" "nikkinikki-org/OpenWrt-nikki" "main"
 UPDATE_PACKAGE "openclash" "vernesong/OpenClash" "dev" "pkg"
-UPDATE_PACKAGE "passwall2" "xiaorouji/openwrt-passwall" "main" "pkg"
+UPDATE_PACKAGE "passwall2" "xiaorouji/openwrt-passwall2" "main" "pkg"
 UPDATE_PACKAGE "ssr-plus" "fw876/helloworld" "master"
 
 UPDATE_PACKAGE "alist" "sbwml/luci-app-alist" "main"
@@ -70,7 +73,7 @@ UPDATE_PACKAGE "luci-app-tailscale" "asvow/luci-app-tailscale" "main"
 UPDATE_PACKAGE "lazyoop" "lazyoop/networking-artifact" "main"
 
 UPDATE_PACKAGE "luci-app-lucky" "gdy666/luci-app-lucky" "main"
-UPDATE_PACKAGE "luci-app-daed" "QiuSimons/luci-app-daed" "main"
+UPDATE_PACKAGE "luci-app-daed" "QiuSimons/luci-app-daed" "master"
 
 
 
