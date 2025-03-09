@@ -74,7 +74,7 @@ UPDATE_PACKAGE "lazyoop" "lazyoop/networking-artifact" "main"
 
 UPDATE_PACKAGE "luci-app-lucky" "gdy666/luci-app-lucky" "main"
 UPDATE_PACKAGE "luci-app-daed" "QiuSimons/luci-app-daed" "master"
-
+UPDATE_PACKAGE "hysteria" "kenzok8/small-package" "main" "pkg"
 
 
 #更新软件包版本
